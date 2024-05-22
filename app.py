@@ -11,7 +11,7 @@ from langchain.callbacks import get_openai_callback
 
 
 
-with open('/home/seaflux/MCQ-Generator/Response.json','r') as file:
+with open('Response.json','r') as file:
     RESPONSE_JSON=json.load(file)
     
     
